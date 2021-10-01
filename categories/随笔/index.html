@@ -144,6 +144,17 @@
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
     
+    var gitment = new Gitment({
+        id: '',
+        owner: 'aoteman-web',
+        repo: 'https://aoteman-web.github.io',
+        oauth: {
+            client_id: 'b6a67f3f4d79d7758b67',
+            client_secret: '49ebb10bb0e2eadbf1a2b6e0b92632b09176b65d'
+        }
+    });
+    gitment.render('comment-container');
+    
 
 </script>
 </html>
